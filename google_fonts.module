@@ -1,0 +1,13 @@
+<?php
+/*
+ * Implements hook_html_head_alter hook = module/theme
+ */
+function google_fonts_html_head_alter(&$head_elements) {
+  // Loads Google Font Qwigley
+  $head_elements['chrome_frame'] = array(
+    '#type' => 'html_tag',
+    '#tag' => 'link',
+    '#attributes' => array('href' => 'http://fonts.googleapis.com/css?family=Qwigley', 'rel' => 'stylesheet', 'type' => 'text/css'),
+  );
+}
+?>

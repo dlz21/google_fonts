@@ -1,0 +1,4 @@
+name = Google Fonts 
+description = "A Custom module that specifies the google font this site uses."
+core = 7.x
+files[] = google_fonts.module
